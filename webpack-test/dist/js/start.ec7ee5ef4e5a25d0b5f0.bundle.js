@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{1:function(o,n,c){"use strict";var t=c(0),e=c.n(t);n.a=function(){console.log("button click 3"),e.a.each([1,2,3],o=>{console.log(o)})}},11:function(o,n,c){"use strict";c.r(n);var t=c(1);document.write("hello world"),Object(t.a)()}},[[11,1,0]]]);
