@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>datePicker</title>
+    <style>
+        table, td, tr, th {
+            border-collapse: collapse;
+            border: 1px solid deepskyblue;
+            text-align: center;
+        }
+        td, th {
+            padding: 1em;
+        }
+        td:hover {
+            background-color: #00b3ee;
+        }
+        .disable, .disable:hover, .none, .none:hover {
+            background-color: #f0f0f0;
+            color: #b5b5b5;
+        }
+        .p-head {
+            text-align: center;
+        }
+        .left {
+            float: left;
+        }
+        .right {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+<div style="position: absolute;">
+    <div>
+        <div class="p-head">
+            <span class="left">&lt;</span>
+            <span>2018-10</span>
+            <span class="right">&gt;</span>
+        </div>
+        <table>
+            <thead>
+            <tr>
+                <th>一</th>
+                <th>二</th>
+                <th>三</th>
+                <th>四</th>
+                <th>五</th>
+                <th>六</th>
+                <th>日</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="none"></td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td class="disable">1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

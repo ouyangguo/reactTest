@@ -1,0 +1,27 @@
+table, td, tr, th {
+    border-collapse: collapse;
+    border: 1px solid deepskyblue;
+    text-align: center;
+}
+td, th {
+    padding: 1em;
+}
+td:hover {
+    background-color: #00b3ee;
+}
+.disable, .disable:hover, .none, .none:hover {
+    background-color: #f0f0f0;
+    color: #b5b5b5;
+}
+.p-head {
+    text-align: center;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.date-picker {
+    position: absolute;
+}

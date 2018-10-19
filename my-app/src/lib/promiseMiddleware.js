@@ -6,8 +6,9 @@ export default function ({dispatch}) {
 		if (action.then) {
 			return action.then(dispatch);
 		} else {
-			console.log(action);
-			return next(action);
+			let r = next(action);
+			console.log(r)
+			return r;
 		}
 	}
 }

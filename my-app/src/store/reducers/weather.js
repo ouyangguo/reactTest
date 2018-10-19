@@ -17,6 +17,7 @@ function setFetchStatus(status = {}, action) {
 }
 
 function receiveWeather(weather = {}, action) {
+	console.log('action is', action)
 	if (action.type === SET_WEATHER) {
 		return {...weather, [action.data.city]: action.data.weather};
 	}

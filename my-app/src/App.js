@@ -6,6 +6,7 @@ import { Provider } from 'react-redux'
 import ErrorContainer from './components/container/ErrorContainer';
 import configureStore from './store/index';
 import Weather from './components/weather/weather';
+import DatePicker from './components/datePicker/datePicker';
 
 const initState = {
 	fetchStatus: {
@@ -34,7 +35,8 @@ class App extends React.Component {
                 <div>
                     <button onClick={this.clickBtn}>test</button>
                 </div>
-                <Weather/>
+                {/*<Weather/>*/}
+                <DatePicker/>
             </ErrorContainer>
           </Provider>
         )
